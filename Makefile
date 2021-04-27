@@ -2,7 +2,8 @@
 CC = gcc 
 main_file = main
 input_files = ${main_file}.c
-output_file = ${main_file}.out
+project_name = FileDump
+output_file = ${project_name}.out
 flags = -o
 
 default:
