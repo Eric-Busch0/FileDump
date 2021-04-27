@@ -57,7 +57,7 @@ int main(int argc, char **argv)
     // mark end of file
     printf("\n\n*****************************\n");
     printf("End file\n\n");
-
+    
     // close the file
     fclose(f);
 
