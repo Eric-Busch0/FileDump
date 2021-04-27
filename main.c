@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
+// #include <stdlib.h>
 #include <string.h>
-#include <stdint.h>
-#include <sys/stat.h>
+// #include <stdint.h>
+// #include <sys/stat.h>
 #include <assert.h>
 #include "main.h"
 
@@ -49,7 +49,7 @@ int main(int argc, char **argv)
         c = fgetc(f);
         printf("%c", c);
     }
-    
+
     // close the file   
     fclose(f);
 
