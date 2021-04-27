@@ -42,7 +42,11 @@ int main(int argc, char **argv)
 
     //make sure the file exists
     assert(f != NULL);
-    
+
+    // Mark start of file
+
+    printf("\nBegin file\n");
+    printf("*****************************\n");
     // print the file contents
     while (c != EOF)
     {
@@ -50,7 +54,11 @@ int main(int argc, char **argv)
         printf("%c", c);
     }
 
-    // close the file   
+    // mark end of file
+    printf("\n\n*****************************\n");
+    printf("End file\n\n");
+
+    // close the file
     fclose(f);
 
     return 0;
