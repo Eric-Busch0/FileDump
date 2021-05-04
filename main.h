@@ -1,7 +1,7 @@
 #ifndef _MAIN_H
 #define _MAIN_H
 
-//#define _ASSERT_ENABLE
+// #define _ASSERT_ENABLE
 
 #define MAX_FILEPATH_LENGTH (1000)
 

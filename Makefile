@@ -11,7 +11,7 @@ default:
 	${CC} ${input_files} ${flags} ${build_dir}${output_file}
 
 run:
-	${output_file}
+	${build_dir}${output_file}
 
 make clean:
 	del build/filedump.out
