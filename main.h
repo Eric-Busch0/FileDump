@@ -3,7 +3,7 @@
 
 // #define _ASSERT_ENABLE
 
-#define MAX_FILEPATH_LENGTH (1000)
+#define MAX_FILEPATH_LENGTH (1024)
 
 #define C_PATH "D:\\VSCodeBasic\\Tests\\main.c"
 

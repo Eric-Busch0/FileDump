@@ -1,8 +1,5 @@
 #include <stdio.h>
-// #include <stdlib.h>
 #include <string.h>
-// #include <stdint.h>
-// #include <sys/stat.h>
 #include <assert.h>
 #include "main.h"
 
@@ -30,7 +27,7 @@ int main(int argc, char **argv)
     if (argc <= 1)
     {
         printf("Enter the filename to open \n");
-        scanf("%s", filename);
+        gets(filename);
     }
     else
     {
@@ -44,9 +41,9 @@ int main(int argc, char **argv)
     assert(f != NULL);
 
     // Mark start of file
-
     printf("\nBegin file\n");
     printf("*****************************\n");
+
     // print the file contents
     while (c != EOF)
     {
