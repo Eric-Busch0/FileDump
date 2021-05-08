@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\FileDump.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\FileDump.dir/objects.a @CMakeFiles\FileDump.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\FileDump.dir/objects.a -Wl,--no-whole-archive -o FileDump.exe -Wl,--out-implib,libFileDump.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FileDump.dir\linklibs.rsp

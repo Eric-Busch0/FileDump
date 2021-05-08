@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/VSCodeBasic/FileDump/main.c
+stdio.h
+-
+string.h
+-
+assert.h
+-
+main.h
+D:/VSCodeBasic/FileDump/main.h
+
+D:/VSCodeBasic/FileDump/main.h
+
