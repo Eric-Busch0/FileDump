@@ -3,8 +3,6 @@
 #include <assert.h>
 #include "main.h"
 
-typedef struct stat stat_t;
-
 int main(int argc, char **argv)
 {
 
