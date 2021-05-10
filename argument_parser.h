@@ -3,6 +3,7 @@
 
 #include <stdbool.h>
 
+bool get_flags(int argc, char **argv, char *flags);
 bool get_file(int argc, char **argv, char *filename);
 
 #endif

@@ -1,24 +1,5 @@
 #include "flags.h"
 
-bool get_flags(int argc, char **argv, char *flags)
-{
-    bool are_flags = false;
-
-    print_flags(flags, argc);
-    int j = 0;
-    for (int i = 0; i < argc; i++)
-    {
-        if (is_flag(argv[i]))
-        {
-            flags[j] = prog_flags[i];
-            j++;
-            are_flags = true;
-        }
-    }
-
-    return are_flags;
-}
-
 int is_flag(char *argument)
 {
     // printf("arg = %s\n", argument);
