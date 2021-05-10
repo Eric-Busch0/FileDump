@@ -11,7 +11,7 @@ int main(int argc, char **argv)
     //haven't decided if I want this
     bool arguments_passed = false;
     char passed_flags[TOTAL_FLAGS];
-    
+
 #ifdef _ASSERT_ENABLE
 
     // require arguments to proceed
@@ -34,8 +34,9 @@ int main(int argc, char **argv)
             printf("%s\n", argv[i]);
         }
 
+        get_flags(argv, passed_flags, argc);
 
-
+        print_flags(passed_flags,2);
     }
 
 

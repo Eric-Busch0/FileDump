@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/VSCodeBasic/FileDump/flags.c
-flags.h
-D:/VSCodeBasic/FileDump/flags.h
-
 D:/VSCodeBasic/FileDump/flags.h
 stdbool.h
 -
