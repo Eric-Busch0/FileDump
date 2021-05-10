@@ -14,7 +14,7 @@ enum flags_idx
 
 static char prog_flags[] = {'s', 'd'};
 
-void get_flags(char **arguments, char *flags, int total_flags);
+void get_flags(int argc, char **argv, char *flags);
 int is_flag(char *argument);
 void print_flags(char * flags, int size);
 #endif

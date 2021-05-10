@@ -1,35 +1,41 @@
 #include "flags.h"
 
-void get_flags(char **arguments, char *flags, int total_flags)
+void get_flags(int argc, char **argv, char *flags)
 {
-    for (int i = 0; i < total_flags; i++)
+    print_flags(flags, argc);
+    int j = 0;
+    for (int i = 0; i < argc; i++)
     {
-        if (is_flag(arguments[i]))
+        if (is_flag(argv[i]))
         {
-            flags[i] = prog_flags[i];
+            flags[j] = prog_flags[i];
+            j++;
         }
     }
 }
 
 int is_flag(char *argument)
 {
+    // printf("arg = %s\n", argument);
     if (argument[0] != '-')
     {
         return false;
     }
     for (int i = STATS; i < TOTAL_FLAGS; i++)
     {
+
         if (argument[1] == prog_flags[i])
         {
+            printf("flag: %c\n", argument[1]);
             return i;
         }
     }
     return -1;
 }
 
-void print_flags(char * flags, int size)
+void print_flags(char *flags, int size)
 {
-    for(int i = 0; i < size; i++)
+    for (int i = 0; i < size; i++)
     {
         printf("%c", flags[i]);
     }

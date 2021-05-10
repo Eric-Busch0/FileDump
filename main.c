@@ -23,22 +23,16 @@ int main(int argc, char **argv)
         printf("%s\n", argv[i]);
     }
 #endif
+
     // check to see if flags have been set and been given a file
     if (argc > 2)
     {
         arguments_passed = true;
 
-        printf("arguments passed\n");
-        for(int i = 0; i < argc; i++)
-        {
-            printf("%s\n", argv[i]);
-        }
+        get_flags(argc, argv, passed_flags);
 
-        get_flags(argv, passed_flags, argc);
-
-        print_flags(passed_flags,2);
+        // print_flags(passed_flags, 2); 
     }
-
 
     char filename[MAX_FILEPATH_LENGTH], c;
 
