@@ -9,6 +9,7 @@
 int main(int argc, char **argv)
 {
     char passed_flags[TOTAL_FLAGS];
+    char filename[MAX_FILEPATH_LENGTH], c;
 
 #ifdef _ASSERT_ENABLE
 
@@ -23,19 +24,15 @@ int main(int argc, char **argv)
 #endif
 
     // check to see if flags have been set and been given a file
-    if (argc > 2)
+    if (argc >= 1)
     {
-        get_flags(argc, argv, passed_flags);
-    }
-    
-    char filename[MAX_FILEPATH_LENGTH], c;
-
-    /* If no is file given, ask for one.
-     Otherwise, store the given filename in the filename buffer */
-    if (argc <= 1)
-    {
-        printf("Enter the filename to open \n");
-        gets(filename);
+        if (!get_flags(argc, argv, passed_flags))
+        {
+            /* If no is file given, ask for one.
+            Otherwise, store the given filename in the filename buffer */
+            printf("Enter the filename to open \n");
+            gets(filename);
+        }
     }
     else
     {
