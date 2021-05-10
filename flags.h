@@ -1,8 +1,6 @@
 #ifndef _FLAGS_H
 #define _FLAGS_H
 
-
-
 #include <stdbool.h>
 
 enum flags_idx
