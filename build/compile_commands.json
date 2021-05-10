@@ -3,5 +3,10 @@
   "directory": "D:/VSCodeBasic/FileDump/build",
   "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\FileDump.dir\\main.c.obj -c D:\\VSCodeBasic\\FileDump\\main.c",
   "file": "D:/VSCodeBasic/FileDump/main.c"
+},
+{
+  "directory": "D:/VSCodeBasic/FileDump/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\FileDump.dir\\flags.c.obj -c D:\\VSCodeBasic\\FileDump\\flags.c",
+  "file": "D:/VSCodeBasic/FileDump/flags.c"
 }
 ]

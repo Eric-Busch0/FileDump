@@ -1,0 +1,1 @@
+1. Files may not begin with a hyphen '-'

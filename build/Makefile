@@ -538,6 +538,33 @@ FileDump/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/build
 .PHONY : FileDump/fast
 
+flags.obj: flags.c.obj
+
+.PHONY : flags.obj
+
+# target to build an object file
+flags.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/flags.c.obj
+.PHONY : flags.c.obj
+
+flags.i: flags.c.i
+
+.PHONY : flags.i
+
+# target to preprocess a source file
+flags.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/flags.c.i
+.PHONY : flags.c.i
+
+flags.s: flags.c.s
+
+.PHONY : flags.s
+
+# target to generate assembly for a file
+flags.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/flags.c.s
+.PHONY : flags.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -605,6 +632,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... FileDump
+	@echo ... flags.obj
+	@echo ... flags.i
+	@echo ... flags.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

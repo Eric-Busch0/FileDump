@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/FileDump.dir/flags.c.obj"
   "CMakeFiles/FileDump.dir/main.c.obj"
   "FileDump.exe"
   "FileDump.exe.manifest"

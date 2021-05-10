@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+D:/VSCodeBasic/FileDump/flags.c
+flags.h
+D:/VSCodeBasic/FileDump/flags.h
+
+D:/VSCodeBasic/FileDump/flags.h
+stdbool.h
+-
+
 D:/VSCodeBasic/FileDump/main.c
 stdio.h
 -
@@ -13,8 +21,12 @@ string.h
 -
 assert.h
 -
+stdbool.h
+-
 main.h
 D:/VSCodeBasic/FileDump/main.h
+flags.h
+D:/VSCodeBasic/FileDump/flags.h
 
 D:/VSCodeBasic/FileDump/main.h
 

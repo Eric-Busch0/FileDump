@@ -1,11 +1,17 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
+#include <stdbool.h>
+
 #include "main.h"
+#include "flags.h"
 
 int main(int argc, char **argv)
 {
-
+    //haven't decided if I want this
+    bool arguments_passed = false;
+    char passed_flags[TOTAL_FLAGS];
+    
 #ifdef _ASSERT_ENABLE
 
     // require arguments to proceed
@@ -17,6 +23,21 @@ int main(int argc, char **argv)
         printf("%s\n", argv[i]);
     }
 #endif
+    // check to see if flags have been set and been given a file
+    if (argc > 2)
+    {
+        arguments_passed = true;
+
+        printf("arguments passed\n");
+        for(int i = 0; i < argc; i++)
+        {
+            printf("%s\n", argv[i]);
+        }
+
+
+
+    }
+
 
     char filename[MAX_FILEPATH_LENGTH], c;
 
@@ -52,7 +73,7 @@ int main(int argc, char **argv)
     // mark end of file
     printf("\n\n*****************************\n");
     printf("End file\n\n");
-    
+
     // close the file
     fclose(f);
 
