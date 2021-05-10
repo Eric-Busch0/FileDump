@@ -67,67 +67,67 @@ CMAKE_SOURCE_DIR = D:\VSCodeBasic\FileDump
 CMAKE_BINARY_DIR = D:\VSCodeBasic\FileDump\build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/FileDump.dir/depend.make
+include CMakeFiles/filedump.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/FileDump.dir/progress.make
+include CMakeFiles/filedump.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/FileDump.dir/flags.make
+include CMakeFiles/filedump.dir/flags.make
 
-CMakeFiles/FileDump.dir/main.c.obj: CMakeFiles/FileDump.dir/flags.make
-CMakeFiles/FileDump.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FileDump.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FileDump.dir\main.c.obj -c D:\VSCodeBasic\FileDump\main.c
+CMakeFiles/filedump.dir/main.c.obj: CMakeFiles/filedump.dir/flags.make
+CMakeFiles/filedump.dir/main.c.obj: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/filedump.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\filedump.dir\main.c.obj -c D:\VSCodeBasic\FileDump\main.c
 
-CMakeFiles/FileDump.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FileDump.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\VSCodeBasic\FileDump\main.c > CMakeFiles\FileDump.dir\main.c.i
+CMakeFiles/filedump.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filedump.dir/main.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\VSCodeBasic\FileDump\main.c > CMakeFiles\filedump.dir\main.c.i
 
-CMakeFiles/FileDump.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FileDump.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\VSCodeBasic\FileDump\main.c -o CMakeFiles\FileDump.dir\main.c.s
+CMakeFiles/filedump.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filedump.dir/main.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\VSCodeBasic\FileDump\main.c -o CMakeFiles\filedump.dir\main.c.s
 
-CMakeFiles/FileDump.dir/flags.c.obj: CMakeFiles/FileDump.dir/flags.make
-CMakeFiles/FileDump.dir/flags.c.obj: ../flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FileDump.dir/flags.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FileDump.dir\flags.c.obj -c D:\VSCodeBasic\FileDump\flags.c
+CMakeFiles/filedump.dir/flags.c.obj: CMakeFiles/filedump.dir/flags.make
+CMakeFiles/filedump.dir/flags.c.obj: ../flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/filedump.dir/flags.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\filedump.dir\flags.c.obj -c D:\VSCodeBasic\FileDump\flags.c
 
-CMakeFiles/FileDump.dir/flags.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FileDump.dir/flags.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\VSCodeBasic\FileDump\flags.c > CMakeFiles\FileDump.dir\flags.c.i
+CMakeFiles/filedump.dir/flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filedump.dir/flags.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\VSCodeBasic\FileDump\flags.c > CMakeFiles\filedump.dir\flags.c.i
 
-CMakeFiles/FileDump.dir/flags.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FileDump.dir/flags.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\VSCodeBasic\FileDump\flags.c -o CMakeFiles\FileDump.dir\flags.c.s
+CMakeFiles/filedump.dir/flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filedump.dir/flags.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\VSCodeBasic\FileDump\flags.c -o CMakeFiles\filedump.dir\flags.c.s
 
-# Object files for target FileDump
-FileDump_OBJECTS = \
-"CMakeFiles/FileDump.dir/main.c.obj" \
-"CMakeFiles/FileDump.dir/flags.c.obj"
+# Object files for target filedump
+filedump_OBJECTS = \
+"CMakeFiles/filedump.dir/main.c.obj" \
+"CMakeFiles/filedump.dir/flags.c.obj"
 
-# External object files for target FileDump
-FileDump_EXTERNAL_OBJECTS =
+# External object files for target filedump
+filedump_EXTERNAL_OBJECTS =
 
-FileDump.exe: CMakeFiles/FileDump.dir/main.c.obj
-FileDump.exe: CMakeFiles/FileDump.dir/flags.c.obj
-FileDump.exe: CMakeFiles/FileDump.dir/build.make
-FileDump.exe: CMakeFiles/FileDump.dir/linklibs.rsp
-FileDump.exe: CMakeFiles/FileDump.dir/objects1.rsp
-FileDump.exe: CMakeFiles/FileDump.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable FileDump.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FileDump.dir\link.txt --verbose=$(VERBOSE)
+filedump.exe: CMakeFiles/filedump.dir/main.c.obj
+filedump.exe: CMakeFiles/filedump.dir/flags.c.obj
+filedump.exe: CMakeFiles/filedump.dir/build.make
+filedump.exe: CMakeFiles/filedump.dir/linklibs.rsp
+filedump.exe: CMakeFiles/filedump.dir/objects1.rsp
+filedump.exe: CMakeFiles/filedump.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable filedump.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\filedump.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/FileDump.dir/build: FileDump.exe
+CMakeFiles/filedump.dir/build: filedump.exe
 
-.PHONY : CMakeFiles/FileDump.dir/build
+.PHONY : CMakeFiles/filedump.dir/build
 
-CMakeFiles/FileDump.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\FileDump.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/FileDump.dir/clean
+CMakeFiles/filedump.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\filedump.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/filedump.dir/clean
 
-CMakeFiles/FileDump.dir/depend:
+CMakeFiles/filedump.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\VSCodeBasic\FileDump D:\VSCodeBasic\FileDump D:\VSCodeBasic\FileDump\build D:\VSCodeBasic\FileDump\build D:\VSCodeBasic\FileDump\build\CMakeFiles\FileDump.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/FileDump.dir/depend
+.PHONY : CMakeFiles/filedump.dir/depend
 

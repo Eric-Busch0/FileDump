@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FileDump.dir/flags.c.obj"
-  "CMakeFiles/FileDump.dir/main.c.obj"
-  "FileDump.exe"
-  "FileDump.exe.manifest"
-  "FileDump.pdb"
-  "libFileDump.dll.a"
+  "CMakeFiles/filedump.dir/flags.c.obj"
+  "CMakeFiles/filedump.dir/main.c.obj"
+  "filedump.exe"
+  "filedump.exe.manifest"
+  "filedump.pdb"
+  "libfiledump.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang C)
-  include(CMakeFiles/FileDump.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/filedump.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

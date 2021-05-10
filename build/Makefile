@@ -526,17 +526,17 @@ ContinuousCoverage/fast:
 .PHONY : ContinuousCoverage/fast
 
 #=============================================================================
-# Target rules for targets named FileDump
+# Target rules for targets named filedump
 
 # Build rule for target.
-FileDump: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FileDump
-.PHONY : FileDump
+filedump: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 filedump
+.PHONY : filedump
 
 # fast build rule for target.
-FileDump/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/build
-.PHONY : FileDump/fast
+filedump/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/build
+.PHONY : filedump/fast
 
 flags.obj: flags.c.obj
 
@@ -544,7 +544,7 @@ flags.obj: flags.c.obj
 
 # target to build an object file
 flags.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/flags.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/flags.c.obj
 .PHONY : flags.c.obj
 
 flags.i: flags.c.i
@@ -553,7 +553,7 @@ flags.i: flags.c.i
 
 # target to preprocess a source file
 flags.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/flags.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/flags.c.i
 .PHONY : flags.c.i
 
 flags.s: flags.c.s
@@ -562,7 +562,7 @@ flags.s: flags.c.s
 
 # target to generate assembly for a file
 flags.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/flags.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/flags.c.s
 .PHONY : flags.c.s
 
 main.obj: main.c.obj
@@ -571,7 +571,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -580,7 +580,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -589,7 +589,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -631,7 +631,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... FileDump
+	@echo ... filedump
 	@echo ... flags.obj
 	@echo ... flags.i
 	@echo ... flags.s

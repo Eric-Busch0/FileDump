@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "FileDump.exe"
+			"path" : "filedump.exe"
 		},
 		{
-			"path" : "FileDump.pdb"
+			"path" : "filedump.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -49,7 +49,7 @@
 			]
 		}
 	],
-	"id" : "FileDump::@6890427a1f51a3e7e1df",
+	"id" : "filedump::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "FileDump",
-	"nameOnDisk" : "FileDump.exe",
+	"name" : "filedump",
+	"nameOnDisk" : "filedump.exe",
 	"paths" : 
 	{
 		"build" : ".",

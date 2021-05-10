@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(FileDump VERSION 0.1.0)
+project(filedump VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
 
-add_executable(FileDump main.c flags.c)
+add_executable(filedump main.c flags.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

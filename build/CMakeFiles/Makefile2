@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = D:\VSCodeBasic\FileDump\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/FileDump.dir/all
+all: CMakeFiles/filedump.dir/all
 
 .PHONY : all
 
@@ -109,7 +109,7 @@ clean: CMakeFiles/ContinuousConfigure.dir/clean
 clean: CMakeFiles/ContinuousBuild.dir/clean
 clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
-clean: CMakeFiles/FileDump.dir/clean
+clean: CMakeFiles/filedump.dir/clean
 
 .PHONY : clean
 
@@ -870,31 +870,31 @@ CMakeFiles/ContinuousCoverage.dir/clean:
 .PHONY : CMakeFiles/ContinuousCoverage.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/FileDump.dir
+# Target rules for target CMakeFiles/filedump.dir
 
 # All Build rule for target.
-CMakeFiles/FileDump.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=1,2,3 "Built target FileDump"
-.PHONY : CMakeFiles/FileDump.dir/all
+CMakeFiles/filedump.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=1,2,3 "Built target filedump"
+.PHONY : CMakeFiles/filedump.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/FileDump.dir/rule: cmake_check_build_system
+CMakeFiles/filedump.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCodeBasic\FileDump\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/FileDump.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/filedump.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCodeBasic\FileDump\build\CMakeFiles 0
-.PHONY : CMakeFiles/FileDump.dir/rule
+.PHONY : CMakeFiles/filedump.dir/rule
 
 # Convenience name for target.
-FileDump: CMakeFiles/FileDump.dir/rule
+filedump: CMakeFiles/filedump.dir/rule
 
-.PHONY : FileDump
+.PHONY : filedump
 
 # clean rule for target.
-CMakeFiles/FileDump.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileDump.dir\build.make CMakeFiles/FileDump.dir/clean
-.PHONY : CMakeFiles/FileDump.dir/clean
+CMakeFiles/filedump.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/clean
+.PHONY : CMakeFiles/filedump.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

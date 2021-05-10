@@ -159,7 +159,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=FileDump
+CMAKE_PROJECT_NAME:STATIC=filedump
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -337,6 +337,12 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 
 //Path to a program.
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
+
+//Value Computed by CMake
+filedump_BINARY_DIR:STATIC=D:/VSCodeBasic/FileDump/build
+
+//Value Computed by CMake
+filedump_SOURCE_DIR:STATIC=D:/VSCodeBasic/FileDump
 
 
 ########################

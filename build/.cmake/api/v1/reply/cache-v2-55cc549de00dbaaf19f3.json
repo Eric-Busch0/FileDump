@@ -899,7 +899,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "FileDump"
+			"value" : "filedump"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1760,6 +1760,30 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "SVNCOMMAND-NOTFOUND"
+		},
+		{
+			"name" : "filedump_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/VSCodeBasic/FileDump/build"
+		},
+		{
+			"name" : "filedump_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/VSCodeBasic/FileDump"
 		}
 	],
 	"kind" : "cache",

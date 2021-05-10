@@ -54,7 +54,7 @@
 					[
 						0
 					],
-					"name" : "FileDump",
+					"name" : "filedump",
 					"targetIndexes" : 
 					[
 						0,
@@ -219,13 +219,6 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "FileDump::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FileDump-Debug-18f340145b4a861a3172.json",
-					"name" : "FileDump",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "Nightly::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Nightly-Debug-873760a59d1ece5043e6.json",
 					"name" : "Nightly",
@@ -292,6 +285,13 @@
 					"id" : "NightlyUpdate::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-NightlyUpdate-Debug-622a9f23b94eaabdde23.json",
 					"name" : "NightlyUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filedump::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filedump-Debug-5e2a327279895fa81c55.json",
+					"name" : "filedump",
 					"projectIndex" : 0
 				}
 			]
