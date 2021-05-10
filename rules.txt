@@ -1,1 +1,2 @@
 1. Files may not begin with a hyphen '-'
+2. If no argument is given, the program will default to displaying the file contents

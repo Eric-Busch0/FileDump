@@ -8,8 +8,6 @@
 
 int main(int argc, char **argv)
 {
-    //haven't decided if I want this
-    bool arguments_passed = false;
     char passed_flags[TOTAL_FLAGS];
 
 #ifdef _ASSERT_ENABLE
@@ -27,13 +25,9 @@ int main(int argc, char **argv)
     // check to see if flags have been set and been given a file
     if (argc > 2)
     {
-        arguments_passed = true;
-
         get_flags(argc, argv, passed_flags);
-
-        // print_flags(passed_flags, 2); 
     }
-
+    
     char filename[MAX_FILEPATH_LENGTH], c;
 
     /* If no is file given, ask for one.
