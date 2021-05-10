@@ -876,12 +876,12 @@ CMakeFiles/ContinuousCoverage.dir/clean:
 CMakeFiles/filedump.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=1,2,3 "Built target filedump"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\VSCodeBasic\FileDump\build\CMakeFiles --progress-num=1,2,3,4 "Built target filedump"
 .PHONY : CMakeFiles/filedump.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/filedump.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCodeBasic\FileDump\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCodeBasic\FileDump\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/filedump.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCodeBasic\FileDump\build\CMakeFiles 0
 .PHONY : CMakeFiles/filedump.dir/rule

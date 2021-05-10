@@ -8,6 +8,9 @@
 
 int main(int argc, char **argv)
 {
+    bool are_flags = false;
+    bool is_file = false;
+
     char passed_flags[TOTAL_FLAGS];
     char filename[MAX_FILEPATH_LENGTH], c;
 
@@ -23,22 +26,32 @@ int main(int argc, char **argv)
     }
 #endif
 
-    // check to see if flags have been set and been given a file
-    if (argc >= 1)
+    //check to see if any arguments have been specified
+    if (argc > 2)
     {
-        if (!get_flags(argc, argv, passed_flags))
-        {
-            /* If no is file given, ask for one.
+        are_flags = get_flags(argc, argv, passed_flags);
+        is_file = get_file(argc, argv, filename);
+        printf("filename: %s\n", filename);
+    }
+    if (!are_flags || !is_file)
+    {
+        /* If no is file given, ask for one.
             Otherwise, store the given filename in the filename buffer */
-            printf("Enter the filename to open \n");
-            gets(filename);
-        }
+        printf("Enter the filename to open \n");
+        gets(filename);
     }
     else
     {
-        strcpy(filename, argv[1]);
+        printf("filename: %s\n", filename);
     }
+    // else
+    // {
 
+    //     /* If no is file given, ask for one.
+    //         Otherwise, store the given filename in the filename buffer */
+    //     printf("Enter the filename to open \n");
+    //     gets(filename);
+    // }
     // open the file
     FILE *f = fopen(filename, "r");
 

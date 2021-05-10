@@ -538,6 +538,33 @@ filedump/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/build
 .PHONY : filedump/fast
 
+argument_parser.obj: argument_parser.c.obj
+
+.PHONY : argument_parser.obj
+
+# target to build an object file
+argument_parser.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/argument_parser.c.obj
+.PHONY : argument_parser.c.obj
+
+argument_parser.i: argument_parser.c.i
+
+.PHONY : argument_parser.i
+
+# target to preprocess a source file
+argument_parser.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/argument_parser.c.i
+.PHONY : argument_parser.c.i
+
+argument_parser.s: argument_parser.c.s
+
+.PHONY : argument_parser.s
+
+# target to generate assembly for a file
+argument_parser.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\filedump.dir\build.make CMakeFiles/filedump.dir/argument_parser.c.s
+.PHONY : argument_parser.c.s
+
 flags.obj: flags.c.obj
 
 .PHONY : flags.obj
@@ -632,6 +659,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... filedump
+	@echo ... argument_parser.obj
+	@echo ... argument_parser.i
+	@echo ... argument_parser.s
 	@echo ... flags.obj
 	@echo ... flags.i
 	@echo ... flags.s

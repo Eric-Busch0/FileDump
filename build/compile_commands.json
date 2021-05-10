@@ -8,5 +8,10 @@
   "directory": "D:/VSCodeBasic/FileDump/build",
   "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\filedump.dir\\flags.c.obj -c D:\\VSCodeBasic\\FileDump\\flags.c",
   "file": "D:/VSCodeBasic/FileDump/flags.c"
+},
+{
+  "directory": "D:/VSCodeBasic/FileDump/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\filedump.dir\\argument_parser.c.obj -c D:\\VSCodeBasic\\FileDump\\argument_parser.c",
+  "file": "D:/VSCodeBasic/FileDump/argument_parser.c"
 }
 ]

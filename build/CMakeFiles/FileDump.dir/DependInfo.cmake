@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/VSCodeBasic/FileDump/argument_parser.c" "D:/VSCodeBasic/FileDump/build/CMakeFiles/FileDump.dir/argument_parser.c.obj"
   "D:/VSCodeBasic/FileDump/flags.c" "D:/VSCodeBasic/FileDump/build/CMakeFiles/FileDump.dir/flags.c.obj"
   "D:/VSCodeBasic/FileDump/main.c" "D:/VSCodeBasic/FileDump/build/CMakeFiles/FileDump.dir/main.c.obj"
   )

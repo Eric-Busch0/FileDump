@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/filedump.dir/argument_parser.c.obj"
   "CMakeFiles/filedump.dir/flags.c.obj"
   "CMakeFiles/filedump.dir/main.c.obj"
   "filedump.exe"
